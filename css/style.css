@@ -205,3 +205,17 @@ main {
   color: white;
   padding: 5px 10px;
 }
+
+.wave-grey {
+  background-color: white;
+  background-image: url(../img/wave-grey.svg);
+}
+
+.wave-white {
+  background-color: #f6f6f6;
+  background-image: url(../img/wave-white.svg);
+}
+
+.wave img {
+  width: 100%;
+}
