@@ -119,59 +119,77 @@ h2 {
 }
 .bg-grey-sm {
   height: 400px;
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 .bg-grey-lg {
-  height: 800px;
-  background-color: #d3d3d3;
+  height: 950px;
+  background-color: #f6f6f6;
 }
 
 .green-box {
   width: 80%;
   height: 700px;
-  border: 1px dashed black;
-  background-color: #238b21;
+  text-align: center;
+  /* border: 1px dashed black;
+  background-color: #238b21; */
+}
+.stars {
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40px;
+  background-position: center;
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.download {
+  margin-top: 20px;
+  background-color: #8fa1e1;
+  color: white;
 }
 
 .bg-black {
-  height: 500px;
   background-color: #23272a;
+  color: white;
 }
 
 .adv {
-  height: 400px;
   width: 20%;
-  background-color: #f08080;
-  border: 1px dashed black;
+  line-height: 30px;
+  padding-right: 15px;
 }
 
-.info-1 {
-  height: 400px;
-  width: 15%;
-  background-color: #21b2aa;
-  border: 1px dashed white;
+.flag {
+  height: 10px;
+  width: 20px;
 }
 
-.info-2 {
-  height: 400px;
+.info {
   width: 15%;
-  background-color: #21b2aa;
-  border: 1px dashed white;
+  padding-top: 25px;
+  color: #7389da;
+  font-weight: bold;
+}
+.footer-title {
+  color: #7389da;
 }
 
-.info-3 {
-  height: 400px;
-  width: 15%;
-  background-color: #21b2aa;
-  border: 1px dashed white;
+.fa-brands {
+  margin-right: 10px;
 }
 
-.info-4 {
-  height: 400px;
-  width: 15%;
-  background-color: #21b2aa;
-  border: 1px dashed white;
+.footer-list {
+  list-style: none;
+  color: white;
+  font-weight: normal;
+  font-size: small;
+  line-height: 30px;
 }
+
 main {
   border-bottom: 1px solid #bdbebf;
 }
