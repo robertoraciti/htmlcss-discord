@@ -50,16 +50,33 @@ header li {
   margin-left: 35px;
 }
 
-.blue-section {
-  background-color: #00008b;
-  height: 300px;
+.bg-img {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
 }
 
-.sub-header {
-  width: 40%;
+.jumbotron {
+  width: 50%;
   height: 250px;
-  border: 1px dashed black;
-  background-color: #ee81ee;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.big {
+  height: 40px;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 2px;
+}
+.jumbotron .btn {
+  margin-top: 30px;
+  margin-right: 30px;
 }
 
 .bg-white {
